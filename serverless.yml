@@ -2,6 +2,7 @@ service: catfeeder
 
 provider:
   name: aws
+  runtime: nodejs8.10
 
 functions:
   mySkill:
